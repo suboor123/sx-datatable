@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
 import { SxDatatable } from 'sx-datatable'
-
-
 
 const header = ['Image', 'Name', 'Age', 'Email', 'Phone Number', 'University']
 const App = () => {
@@ -16,7 +13,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    ;(async () => {
+    ; (async () => {
       const res = await fetch('https://dummyjson.com/users')
       const data = await res.json()
       const u = data.users
