@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 import { SxDatatable } from 'sx-datatable'
-import 'sx-datatable/dist/index.css'
+
+
 
 const header = ['Image', 'Name', 'Age', 'Email', 'Phone Number', 'University']
 const App = () => {
